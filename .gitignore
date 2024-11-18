@@ -1,0 +1,16 @@
+# Ignore all *.pem files
+*.pem
+
+# Ignore the Client-specific certificate and key files
+Client/cert.pem
+Client/key.pem
+
+# Ignore the specific pickle file in Server/Server/Passwords
+Server/Server/Passwords/test1.pkl
+
+# Ignore the Server-specific certificate and key files
+Server/cert.pem
+Server/key.pem
+
+# Ignore the entire Password directory in Server (if it's empty or contains sensitive data)
+Server/Password/
